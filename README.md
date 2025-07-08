@@ -14,9 +14,9 @@ Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. C
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3)
 
 ## 📌 Proyectos Destacados
-| Dificultad | Proyecto  | Tecnologías Clave     | Documentacion |
-| ---------- | --------- | --------------------- | ------------- |
-| Básico     | Text Area | HTML, CSS, Responsive |               |
+| Dificultad | Proyecto  | Tecnologías Clave     | Documentacion                                         |
+| ---------- | --------- | --------------------- | ----------------------------------------------------- |
+| Básico     | Text Area | HTML, CSS, Responsive | [Proyecto Text Area](frontEnd/01-text_area/README.md) |
 ## 🚀 Cómo Utilizar Estos Proyectos
 1. Clona el repositorio:
 ```bash
