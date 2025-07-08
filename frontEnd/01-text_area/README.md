@@ -24,7 +24,7 @@ Este proyecto implementa un formulario elegante con área de texto, diseñado co
 ## Personalización
 
 Puedes modificar fácilmente estos aspectos:
-![Vista previa del formulario](frontEnd/01-text_area/preview.png)
+![Vista previa del formulario](preview.png)
 
 **Colores (en style.css):**
 ```css
