@@ -17,6 +17,7 @@ Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. C
 | Dificultad | Proyecto  | Tecnologías Clave     | Documentacion                                         |
 | ---------- | --------- | --------------------- | ----------------------------------------------------- |
 | Básico     | Text Area | HTML, CSS, Responsive | [Proyecto Text Area](frontEnd/01-text_area/README.md) |
+| Básico     | Labels    | HTML, CSS, Responsive | [Proyecto Labels](frontEnd/02-labels/README.md)       |
 ## 🚀 Cómo Utilizar Estos Proyectos
 1. Clona el repositorio:
 ```bash
