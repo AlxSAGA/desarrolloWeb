@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Select & Datalist & Option</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1 class="title">Ingresa tus datos</h1>
+        
+        <div class="container">
+            <!-- Seccion Nombre -->
+            <div class="form-group">
+                <label for="username" class="form-label">Username:</label>
+                <input type="text" class="form-control" name="username" id="username" placeholder="John" autofocus autocomplete="off">
+            </div>
+            <!-- Seccion apellidos -->
+            <div class="form-group">
+                <label for="lastname" class="form-label">Lastname:</label>
+                <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Doe" autocomplete="off">
+            </div>
+            <!-- Seccion Correo -->
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="test@test.com" autocomplete="off">
+            </div>
+            <div class="container-items">
+                <!-- Seccion pais -->
+                <div class="form-group form-group-items">
+                    <label for="country" class="form-label form-label-item">Country</label>
+                    <select name="country" id="country" class="dropdown-menu">
+                        <option value="mx" class="country-option">Mexico</option>
+                        <option value="us" class="country-option">USA</option>
+                        <option value="bra" class="country-option">Brasil</option>
+                        <option value="can" class="country-option">Canada</option>
+                        <option value="fra" class="country-option">France</option>
+                    </select>
+                </div>
+                <!-- Seccion tipo de uuario -->
+                <div class="form-group form-group-items">
+                    <label for="user-type" class="form-label form-label-item">User Type:</label>
+                    <select name="user-type" id="user-type" class="dropdown-menu">
+                        <option value="follower" class="user-option">Follower</option>
+                        <option value="company" class="user-option">Company</option>
+                        <option value="other" class="user-option">Other</option>
+                    </select>
+                </div>
+                <!-- Seccion Referencia -->
+                <div class="form-group form-group-items">
+                    <label for="reference" class="form-label form-label-item">Reference Type:</label>
+                    <select name="reference-type" id="reference" class="dropdown-menu">
+                        <option value="friends" class="reference-option">Friends</option>
+                        <option value="publicity" class="reference-option">Publicity</option>
+                        <option value="company" class="reference-option">Company</option>
+                        <option value="other" class="reference-option">Other</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Seccion Mensaje -->
+            <div class="form-group">
+                <label for="textarea-message" class="form-label">Menssage:</label>
+                <textarea
+                    name="textarea-message"
+                    id="textarea-message"
+                    class="input-textarea"
+                    placeholder="Write your message here..."
+                ></textarea>
+            </div>
+            <!-- Seccion terminos y condiciones -->
+            <div class="form-group form-group-checkbox">
+                <label for="terms-conditions" class="form-label-checkbox">I accept the terms and conditions</label>
+                <input type="checkbox" class="form-checkbox" name="terms-conditions" id="terms-conditions">
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
