@@ -2,11 +2,11 @@
 # 🎨 Prácticas de Desarrollo Web Frontend | Mi Portafolio de Aprendizaje
 **Licencia:** MIT
 
-Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. Cada proyecto incluye implementaciones funcionales, soluciones creativas y notas técnicas sobre los desafíos superados. Documento mi proceso de aprendizaje en HTML, CSS.
+Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. Cada proyecto incluye implementaciones funcionales, soluciones creativas  **Manuales**. Documento mi proceso de aprendizaje en HTML, CSS.
 
 ## ✨ Características del Repositorio
 - 🎯 Proyectos completos con HTML | CSS
-- 📚 Anotaciones técnicas sobre soluciones implementadas
+- 📚 Soluciones implementadas de forma manual
 - 🧪 Ejemplos de código bien documentados
 
 ## 🛠️ Tecnologías Utilizadas
@@ -26,17 +26,13 @@ git clone https://github.com/AlxSAGA/desarrolloWeb.git
 ```
 2. Navega al proyecto deseado:
 ```bash
-cd desarrolloWeb/proyectos/nombre-del-proyecto
+cd desarrolloWeb/frontEnd/nombre-del-proyecto
 ```
 
 ## 📚 Notas de Aprendizaje
-Cada proyecto incluye un archivo `LEARN.md` con:
+Cada proyecto incluye un archivo `README.md` con:
 - Desafíos técnicos encontrados
 - Soluciones implementadas
-- Recursos de referencia
-- Mejoras potenciales
-- Conceptos aprendidos
-
 ## ✒️ Autor
 **Alejandor Salazar**   
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin)](https://linkedin.com/in/0xalxsg)
