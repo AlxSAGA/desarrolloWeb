@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fieldset & Legend</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1 class="main-title">formulario de contacto</h1>
+        
+        <div class="container">
+            <!-- Seccion datos personales -->
+            <fieldset class="form-group">
+                <legend>Informacion Basica:</legend>
+                <input class="form-control" type="text" name="username" id="username" placeholder="John" autofocus autocomplete="off">
+                <input class="form-control" type="text" name="lastname" id="lastname" placeholder="Doe">
+                <input class="form-control" type="number" name="age" id="age" placeholder="Edad">
+            </fieldset>
+            <!-- Seccion Contacto -->
+            <fieldset class="form-group">
+                <legend>Contacto:</legend>
+                <input class="form-control" type="email" name="email" id="email" placeholder="test@test.com">
+                <input class="form-control" type="text" name="phone" id="phone" placeholder="+52 55-1022-6556">
+            </fieldset>
+            <!-- Seccion Redes sociales -->
+            <fieldset class="form-group">
+                <legend>Redes Sociales</legend>
+                <input class="form-control" type="text" name="facebook" id="facebook" placeholder="Usuario Facebook">
+                <input class="form-control" type="text" name="instagram" id="instagram" placeholder="Usuario Instagram">
+                <input class="form-control" type="text" name="x" id="x" placeholder="Usuario X">
+            </fieldset>
+            <!-- Seccion Direccion -->
+            <fieldset class="form-group">
+                <legend>Direccion:</legend>
+                <input class="form-control" type="text" name="street" id="street" placeholder="Calle San Test">
+                <input class="form-control" type="text" name="city" id="city" placeholder="Ciudada o Estado">
+                <input class="form-control" type="text" name="country" id="country" placeholder="Mexico">
+            </fieldset>
+            <!-- Seccion Preferencias -->
+            <fieldset class="form-group container-items">
+                <legend>Favoritos:</legend>
+                <!-- Seccion redes sociales -->
+                <div class="form-group">
+                    <select name="social-network" id="social-network" class="dropdown-menu">
+                        <option value="facebook" class="social-network-option">Facebook</option>
+                        <option value="instagram" class="social-network-option">Instagram</option>
+                        <option value="x" class="social-network-option">X</option>
+                        <option value="linkedin" class="social-network-option">Linkedin</option>
+                        <option value="other" class="social-network-option">Otro</option>
+                    </select>
+                </div>
+                <!-- Seccion app de musica -->
+                <div class="form-group">
+                    <select name="music-app" id="music-app" class="dropdown-menu">
+                        <option value="youtube music" class="music-app-option">Youtube Music</option>
+                        <option value="spotify" class="music-app-option">Spotify</option>
+                        <option value="other" class="music-app-option">Otro</option>
+                    </select>
+                </div>
+                <!-- Seccion colores -->
+                <div class="form-group">
+                    <select name="favorite-color" id="favorite-color" class="dropdown-menu">
+                        <option value="blue" class="favorite-color-option">Azul</option>
+                        <option value="red" class="favorite-color-option">Rojo</option>
+                        <option value="yellow" class="favorite-color-option">Amarillo</option>
+                        <option value="green" class="favorite-color-option">Verde</option>
+                        <option value="other" class="favorite-color-option">Otro</option>
+                    </select>
+                </div>
+                <!-- Seccion tecnologia -->
+                <div class="form-group">
+                    <select name="technology" id="technology" class="dropdown-menu">
+                        <option value="phone" class="technology-option">Telefono movil</option>
+                        <option value="tablet" class="technology-option">Tablet</option>
+                        <option value="laptop" class="technology-option">Laptop</option>
+                        <option value="pc" class="technology-option">PC</option>
+                        <option value="other" class="technology-option">Otro</option>
+                    </select>
+                </div>
+            </fieldset>
+            <!-- Seccion comentarios -->
+            <fieldset class="form-textarea">
+                <legend>Resumen:</legend>
+                <textarea
+                    name="textarea-message"
+                    id="textarea-message"
+                    class="input-textarea"
+                    placeholder="Genera un resumen sobre ti aqui..."
+                ></textarea>
+            </fieldset>
+            <!-- Seccion para enviar formulario -->
+            <div class="form-group">
+                <input class="form-group-input" type="submit" name="send-data" id="send-data" value="Enviar Datos">
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

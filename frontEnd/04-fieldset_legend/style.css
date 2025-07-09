@@ -1,0 +1,110 @@
+body {
+    background: #123f5c;
+    font-family: sans-serif;
+    margin: 0;
+    color: #eee;
+}
+
+/* Seccion formulario */
+form {
+    box-sizing: border-box;
+    background-color: transparent;
+    max-width: 70%;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px 0 #0007;
+    margin-bottom: 20px;
+}
+
+/* Seccion titulo principal */
+.main-title {
+    text-transform: uppercase;
+    display: inline-flex;
+    border-bottom: 5px solid #20dbc5;
+    letter-spacing: 5px;
+}
+
+/* Seccion grupos */
+.form-group {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+/* Seccion legen */
+legend {
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+/* Seccion input */
+.form-control {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 10px;
+    padding: 7px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-control::placeholder {
+    color: #000;
+}
+
+/* Seccion favoritos */
+.container-items {
+    border: none;
+    padding: 0;
+}
+
+.dropdown-menu {
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+/* seccion text area */
+.form-textarea {
+    border: none;
+}
+
+.input-textarea {
+    font-family: sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 180px;
+    resize: vertical;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-textarea::placeholder {
+    color: #000;
+}
+
+/* Seccion enviar datos */
+.form-group-input {
+    width: 200px;
+    font-size: 13px;
+    padding: 2px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group-input:hover {
+    color: #123f5c;
+    font-weight: bold;
+    box-shadow: 0 0 30px 0 #000b;
+}
