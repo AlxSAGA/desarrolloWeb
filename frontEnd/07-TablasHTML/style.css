@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+/* Seccion titulo principal */
+.main-container {
+    color: #1c5978;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 3px solid #1c5978;
+    margin-bottom: 80px;
+    background: transparent;
+    text-shadow: 0 0 30px #0006;
+}
+
+.main-title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Seccion tablas */
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.date-table {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 30px;
+    border: 3px solid #1c5978;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 0 #0006;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+.header-cell {
+    border-bottom: 3px solid #1c5978;
+    text-transform: uppercase;
+}
+
+.data-cell {
+    padding: 3px;
+}
