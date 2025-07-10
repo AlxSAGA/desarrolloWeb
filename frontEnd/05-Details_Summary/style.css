@@ -1,0 +1,56 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    color: #eee;
+}
+
+/* Seccion titulo principal*/
+.main-title {
+    background-color: #9f6178;
+    padding: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 200px;
+}
+
+/* Seccion contenedor */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Seccion details */
+.content-datails {
+    background: transparent;
+    border-bottom: 1px solid #9f6178;
+    border-bottom: none;
+    max-width: 20%;
+}
+
+/* Secciuon summary */
+.section-summary {
+    background: transparent;
+    border-bottom: 2px solid #9f6178;
+    padding: 10;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Seccion descripcion */
+.text-content {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Seccion items */
+.list-group-item {
+    margin: 2px 0;
+}
