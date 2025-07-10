@@ -20,7 +20,8 @@ Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. C
 | Básico     | Select & DataList & Option | HTML, CSS, Responsive | [Proyecto Select & Datalist & Option](frontEnd/03-Select_Datalist_Option/README.md) |
 | Básico     | Fieldset & Legend          | HTML, CSS, Responsive | [Proyecto Fieldset & Legend](frontEnd/04-fieldset_legend/README.md)                 |
 | Básico     | Details & Summary          | HTML, CSS, Responsive | [Proyecto Details & Summary](frontEnd/05-Details_Summary/README.md)                 |
-| Básico     | Enlaces HTML               | HTML, CSS, Responsive | [Proyecto Enlaces](frontEnd/06-Enlaces/README.md)                                   |
+| Básico     | Enlaces                    | HTML, CSS, Responsive | [Proyecto Enlaces](frontEnd/06-Enlaces/README.md)                                   |
+| Básico     | Tablas                     | HTML, CSS, Responsive | [Proyecto Tablas HTML](frontEnd/07-TablasHTML/README.md)                            |
 ## 🚀 Cómo Utilizar Estos Proyectos
 1. Clona el repositorio:
 ```bash
