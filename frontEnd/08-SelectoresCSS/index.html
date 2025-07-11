@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Selectores CSS</title>
+</head>
+<body>
+    <!-- Seccion navegacion -->
+    <header>
+        <nav class="navbar">
+            <ul class="nav-group">
+                <li class="nav-group-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-group-item"><a href="#poo" class="nav-link">POO</a></li>
+                <li class="nav-group-item"><a href="#pilares" class="nav-link">PilaresPOO</a></li>
+                <li class="nav-group-item"><a href="#mejores" class="nav-link">Mejores Practicas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Seccion principal -->
+    <main class="main-container">
+        <h1 class="main-title">Introducción a la Programación Orientada a Objetos en Python</h1>
+        <!-- Seccion POO -->
+        <section class="content-section">
+            <h2 class="sub-title" id="poo">¿Qué es la Programación Orientada a Objetos (POO)?</h2>
+            <p class="text-content">
+                La Programación Orientada a Objetos (POO) es un paradigma que organiza el código en unidades llamadas <span>objetos</span>, los cuales encapsulan datos (atributos) y comportamientos (métodos). A diferencia de la programación procedural, la POO imita estructuras del mundo real, facilitando la creación de sistemas modulares y reutilizables. En Python, todo es un objeto (desde números hasta funciones), lo que hace natural adoptar este enfoque para diseñar aplicaciones escalables y mantenibles.
+            </p>
+        </section>
+        <!-- Seccion Pilares findamentales -->
+        <section class="content-section">
+            <h2 class="sub-title" id="pilares">Los Cuatro Pilares Fundamentales</h2>
+            <p class="text-content">
+                <span>Encapsulación:</span>Agrupa datos y métodos dentro de una clase, restringiendo el acceso directo a ciertos componentes. En Python, se logra con convenciones como _variable (protegido) o __variable (privado), aunque depende de la disciplina del programador.
+            </p>
+            <p class="text-content">
+                <span>Abstracción:</span>Oculta complejidad exponiendo solo lo esencial. Por ejemplo, al usar una clase EmailSender, el usuario interactúa con enviar(destino, mensaje) sin conocer los detalles técnicos del protocolo SMTP.
+            </p>
+            <p class="text-content">
+                <span>Herencia:</span>Permite que una clase (hija) herede atributos y métodos de otra (padre).
+            </p>
+            <p class="text-content">
+                <span>Polimorfismo:</span>Objetos de diferentes clases pueden usar una misma interfaz. Por ejemplo, <span>perro.sonido()</span> y <span>gato.sonido()</span> ejecutan comportamientos distintos aunque ambos sean llamados desde una referencia genérica de tipo <span>Animal</span>.
+            </p>
+        </section>
+        <!-- Seccion ventajas -->
+        <section class="content-section">
+            <h2 class="sub-title">Ventajas de la POO en Proyectos Reales</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><span>Reutilización:</span> Las clases pueden ser extendidas o modificadas sin alterar código existente (herencia).</li>
+                <li class="list-group-item"><span>Mantenibilidad:</span> Fallos se corrigen en una sola clase, no en múltiples funciones dispersas.</li>
+                <li class="list-group-item"><span>Colaboración:</span> Equipos trabajan en clases independientes simultáneamente.</li>
+                <li class="list-group-item"><span>Modelado intuitivo:</span> Representa entidades del dominio del problema (ej: Factura, Cliente, Producto).</li>
+            </ul>
+        </section>
+        <!-- Seccion Mejores practicas -->
+        <section class="content-section">
+            <h2 class="sub-title" id="mejores">Mejores Prácticas y Recursos</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><span>Principio DRY (Don't Repeat Yourself):</span> Evita duplicar lógica; usa herencia o composición.</li>
+                <li class="list-group-item"><span>Nombres descriptivos:</span> ClientePremium en lugar de Cliente2.</li>
+                <li class="list-group-item"><span>Documentación:</span> Usa docstrings para explicar el propósito de clases/métodos.</li>
+                <li class="list-group-item"><span>Librerías clave:</span> dataclasses (Python 3.7+): Simplifica creación de clases contenedoras de datos, abc: Define clases abstractas para imponer contratos en herencias.</li>
+            </ul>
+        </section>
+        <p class="text-reflection">La POO transforma problemas complejos en conjuntos interactivos de objetos, potenciando la claridad y eficiencia del código. ¡Dominarla es esencial para desarrollar software profesional! 🐍✨</p>
+    </main>
+    <div class="container-img">
+        <img src="pythonlogo.png" alt="Logo de python3" title="Logo de python3">
+        <img src="PHPLogo.png" alt="Log de PHP" title="Logo de PHP">
+        <img src="JavaLogo.png" alt="Log de Java" title="Logo de Java">
+    </div>
+    <!-- Seccion footer -->
+    <footer>
+        <p class="text-footer">@Todos los derechos reservados...</p>
+    </footer>
+</body>
+</html>
