@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Metodologia BEM</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="list">
+                <li class="list__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="list__item"><a href="#asincrona" class="nav__link">Async vs Hilos</a></li>
+                <li class="list__item"><a href="#errores" class="nav__link">Errores Comunes</a></li>
+                <li class="list__item"><a href="#cuando" class="nav__link"> ¿Cuándo Usar Asincronía?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Seccion titulo principal -->
+    <main class="main">
+        <h1 class="heading">Programación Asíncrona en Python: Concurrencia Moderna</h1>
+        <!-- Seccion Programacion Asincrona -->
+        <section class="section">
+            <h2 class="section__subtitle subtitle--color" id="asincrona">¿Qué es la Programación Asíncrona?</h2>
+            <p class="section__paragraph">
+                La programación asíncrona es un modelo de concurrencia que permite ejecutar <strong>múltiples tareas sin bloqueo</strong>, utilizando un único hilo de ejecución. A diferencia del paralelismo tradicional (que emplea múltiples núcleos), la asincronía optimiza operaciones de E/S (red, disco, APIs) donde la CPU espera respuestas externas. Python implementa este paradigma con las librerías <span>asyncio</span>, <span>async/await</span>, permitiendo manejar miles de conexiones simultáneas eficientemente.
+            </p>
+        </section>
+        <!-- Seccion Conceptos clave -->
+        <section class="section">
+            <h2 class="section__subtitle subtitle--color">Conceptos Clave: Event Loop, Corrutinas y Tasks</h2>
+            <ul class="list__group">
+                <li class="list__item item--selected"><strong>Event Loop:</strong> Es el "corazón" de la aplicación asíncrona. Un bucle que gestiona la ejecución de tareas, distribuyendo el tiempo de CPU cuando una operación se bloquea (ej: esperar una respuesta HTTP).</li>
+                <li class="list__item item--selected"><strong>Corrutinas (Coroutines):</strong> Funciones definidas con async def que pueden pausar/resumir su ejecución. Se acompañan de await para delegar operaciones lentas sin bloquear:</li>
+                <li class="list__item item--selected"><strong>Tasks:</strong> Envuelven corrutinas para ejecutarlas concurrentemente en el event loop.</li>
+            </ul>
+        </section>
+        <!-- Seccion Ventajas y Desventajas -->
+        <table class="table">
+            <thead class="table__header">
+                <tr class="table__row">
+                    <th class="table__head">Característica</th>
+                    <th class="table__head">Asyncio</th>
+                    <th class="table__head">Threads</th>
+                </tr>
+            </thead>
+            <tbody class="table__body">
+                <tr class="table__row">
+                    <td class="table__description">Modelo</td>
+                    <td class="table__description">Concurrencia cooperativa</td>
+                    <td class="table__description">Paralelismo real (con GIL*)</td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__description">Uso de memoria</td>
+                    <td class="table__description">Bajo (1 hilo)</td>
+                    <td class="table__description">Alto (pila por hilo)</td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__description">Complejidad</td>
+                    <td class="table__description">Manejo explícito de estados</td>
+                    <td class="table__description">Riesgo de race conditions</td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__description">Ideal para</td>
+                    <td class="table__description">Servidores web, APIs, chatbots</td>
+                    <td class="table__description">Cálculo CPU-intensivo</td>
+                </tr>
+            </tbody>
+            <tfoot class="table__footer">
+                <tr class="table__row">
+                    <th class="table__head">Global Interpreter Lock en CPython limita hilos.</th>
+                </tr>
+            </tfoot>
+        </table>
+        <!-- Seccion Errores y Soluciones -->
+        <section class="section">
+            <h2 class="section__subtitle subtitle--color" id="errores">Errores Comunes y Soluciones</h2>
+            <ul class="list__group">
+                <li class="list__item item--selected"><strong>Bloquear el Event Loop:</strong> Evitar llamadas síncronas (ej: time.sleep()) en corrutinas. Usar await asyncio.sleep().</li>
+                <li class="list__item item--selected"><strong>No usar await</strong> Olvidar await en una corrutina la convierte en un objeto inactivo (no ejecuta).</li>
+                <li class="list__item item--selected"><strong>Gestionar excepciones:</strong> Capturar errores con try/except en corrutinas o usar asyncio.gather(return_exceptions=True).</li>
+            </ul>
+        </section>
+        <!-- Seccion Cuando usar -->
+        <section class="section">
+            <h2 class="section__subtitle subtitle--color" id="cuando">¿Cuándo Usar Asincronía?</h2>
+            <ul class="list__group">
+                <li class="list__item item--selected"><strong>Recomendado:</strong> Microservicios, scrapers, bots, sistemas en tiempo real.</li>
+                <li class="list__item item--selected"><strong>No recomendado:</strong> Procesamiento numérico intensivo (usar multiprocessing).</li>
+                <li class="list__item item--selected"><strong>Patrón clave:</strong> <span>Divide y vencerás</span> para operaciones I/O-bound</li>
+            </ul>
+        </section>
+    </main>
+    <!-- Seccion pie de pagina -->
+    <footer class="footer">
+        <p class="footer__text">@ Todos los derechos reservados...</p>
+    </footer>
+</body>
+</html>
