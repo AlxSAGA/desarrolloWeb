@@ -27,6 +27,7 @@ Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. C
 | Básico     | Barra de navegacion (Display)             | HTML, CSS, Responsive | [Proyecto Nav](frontEnd/10-barra_navegacion/README.md)                              |
 | Básico     | Postion Relative                          | HTML, CSS, Responsive | [Proyecto Relative](frontEnd/11-position_relative/README.md)                        |
 | Básico     | Position Absolute                         | HTML, CSS, Responsive | [Proyecto Absolute](frontEnd/12-position_absolute/README.md)                        |
+| Básico     | Ventanas Modales                          | HTML, CSS, Responsive | [Proyecto Modal](frontEnd/13-ventana_modal/README.md)                               |
 ## 🚀 Cómo Utilizar Estos Proyectos
 1. Clona el repositorio:
 ```bash
