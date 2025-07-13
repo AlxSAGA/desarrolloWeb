@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Seccion navegacion */
+.nav {
+    background-color: #209ad8;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+/* Seccion items */
+.nav__item {
+    display: inline-block;
+}
+/* Seccuib links */
+
+.nav__link {
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav__link:hover {
+    background-color: #fff6;
+}
+
+/* Secion buttom */
+.link--buttom {
+    background-color: #fff;
+    color: #209ad8;
+    padding: 5px 15px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+.link--buttom:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
