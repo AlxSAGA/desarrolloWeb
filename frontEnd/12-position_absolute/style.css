@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #ccc;
+}
+
+/* Seccion contenedor principal */
+.container {
+    background-color: #eee;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border: 3px solid #000;
+    position: relative;
+}
+
+/* Seccion cajas */
+.box {
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Seccion caja roja */
+.box--red {
+    background-color: #d34a58;
+}
+
+/* Seccion caja azul */
+.box--blue {
+    background-color: #0861b9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* Seccion caja verde */
+.box--green {
+    background-color: #004c11;
+}
