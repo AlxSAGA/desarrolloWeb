@@ -26,6 +26,7 @@ Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. C
 | Básico     | Metodologia BEM(Block, Element, Modifier) | HTML, CSS, Responsive | [Proyecto BEM](frontEnd/09-BEM/README.md)                                           |
 | Básico     | Barra de navegacion (Display)             | HTML, CSS, Responsive | [Proyecto Nav](frontEnd/10-barra_navegacion/README.md)                              |
 | Básico     | Postion Relative                          | HTML, CSS, Responsive | [Proyecto Relative](frontEnd/11-position_relative/README.md)                        |
+| Básico     | Position Absolute                         | HTML, CSS, Responsive | [Proyecto Absolute](frontEnd/12-position_absolute/README.md)                        |
 ## 🚀 Cómo Utilizar Estos Proyectos
 1. Clona el repositorio:
 ```bash
