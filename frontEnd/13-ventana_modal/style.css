@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Secion modal */
+dialog {
+    background-color: #0009;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Secciion modal content */
+.modal__content {
+    background-color: #fff;
+    padding: 20px 40px;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+/* Seccion modal title */
+.modal__title {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Seccion cerrar */
+.moda__close {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    padding: 3px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
