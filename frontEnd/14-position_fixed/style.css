@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Seccuib barra de navegacion */
+.header {
+    background-color: #c8005b;
+    width: 100vw;
+    position: fixed;
+    margin: 0;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+}
+
+.nav__link {
+    color: #fff;
+    padding: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.nav__link:hover {
+    text-shadow: 0 0 50px #fff;
+}
+
+.divisor {
+    padding: 30px;
+}
+
+/* Seccion principal */
+.container {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Seccion titulo principal */
+.header__title {
+    color: #c8005b;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Section contente */
+.section__content {
+    text-align: justify;
+}
+
+/* Seccion subtitulos */
+.section__subtitle {
+    display: inline-block;
+    background-color: #c8005b;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.section__subtitle:hover, .table:hover {
+    box-shadow: 0 0 30px 0 #0007;
+}
+
+/* Seccion items */
+.list__group {
+    border-left: 3px solid #c8005b;
+}
+
+/* Seccion table */
+.table {
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #c8005b;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.table__head {
+    border-bottom: 3px solid #c8005b;
+    border-spacing: 20pxpx;
+    margin-bottom: 5px;
+}
+
+.table__cell {
+    padding: 3px;
+}
+
+
+/* Seccion Footer */
+.footer {
+    background-color: #c8005b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
