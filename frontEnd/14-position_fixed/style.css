@@ -102,3 +102,24 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+/* Seccion boxs */
+.box {
+    background-color: #00627d;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    position: sticky;
+    text-align: center;
+    z-index: 10;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.box--one {
+    top: 100px;
+}
+
+.box--two {
+    bottom: 100px;
+}
