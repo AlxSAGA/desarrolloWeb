@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Seccion menu de navegacion */
+.header {
+    background-color: #00627d;
+    width: 100vw;
+    position: fixed;
+    margin: 0;
+}
+
+.nav__list {
+    text-align: right;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 20px;
+}
+
+.item--separeted {
+    margin-right: 70px;
+}
+
+.nav__link {
+    color: #eee;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Seccion caja separadora */
+.box {
+    padding: 40px;
+}
+
+/* Seccion tutulo principal */
+.main__title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 50px;
+}
+
+/* Seccion targetaas de presentacion */
+.main {
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Seccion cajas */
+.card {
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    border: 3px solid #00627d;
+    border-radius: 5px;
+}
+
+/* Seccion caja uno */
+.card--one {
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.card--one:hover {
+    color: #00627d;
+}
+
+/* Secion caja dos */
+.card--two {
+    position: relative;
+    transition-timing-function: ease;
+    transition-property: bottom;
+    transition-duration: 2s;
+    bottom: 0;
+}
+
+.card--two:hover {
+    bottom: 200px;
+}
+
+/* Seccion caja uno */
+.card--three {
+    position: relative;
+    transition-timing-function: cubic-bezier(.12,.95,.96,.68);
+    transition-property: top;
+    transition-duration: 1s;
+    top: 0;
+}
+
+.card--three:hover {
+    top: 100px;
+}
+
+
+.card__subtitle {
+    border-bottom: 3px solid #00627d;
+    margin: 0;
+    padding: 10px;
+}
+
+.card__text {
+    padding: 20px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/* Seccion footer */
+.footer {
+    background-color: #00627d;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
