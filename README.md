@@ -13,24 +13,25 @@ Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. C
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3)
 
 ## 📌 Proyectos Destacados
-| Dificultad | Proyecto                                  | Tecnologías Clave     | Documentacion                                                                       |
-| ---------- | ----------------------------------------- | --------------------- | ----------------------------------------------------------------------------------- |
-| Básico     | Text Area                                 | HTML, CSS, Responsive | [Proyecto Text Area](frontEnd/01-text_area/README.md)                               |
-| Básico     | Labels                                    | HTML, CSS, Responsive | [Proyecto Labels](frontEnd/02-labels/README.md)                                     |
-| Básico     | Select & DataList & Option                | HTML, CSS, Responsive | [Proyecto Select & Datalist & Option](frontEnd/03-Select_Datalist_Option/README.md) |
-| Básico     | Fieldset & Legend                         | HTML, CSS, Responsive | [Proyecto Fieldset & Legend](frontEnd/04-fieldset_legend/README.md)                 |
-| Básico     | Details & Summary                         | HTML, CSS, Responsive | [Proyecto Details & Summary](frontEnd/05-Details_Summary/README.md)                 |
-| Básico     | Enlaces                                   | HTML, CSS, Responsive | [Proyecto Enlaces](frontEnd/06-Enlaces/README.md)                                   |
-| Básico     | Tablas                                    | HTML, CSS, Responsive | [Proyecto Tablas HTML](frontEnd/07-TablasHTML/README.md)                            |
-| Básico     | Selectores CSS                            | HTML, CSS, Responsive | [Proyecto Selectores CSS](frontEnd/08-SelectoresCSS/README.md)                      |
-| Básico     | Metodologia BEM(Block, Element, Modifier) | HTML, CSS, Responsive | [Proyecto BEM](frontEnd/09-BEM/README.md)                                           |
-| Básico     | Barra de navegacion (Display)             | HTML, CSS, Responsive | [Proyecto Nav](frontEnd/10-barra_navegacion/README.md)                              |
-| Básico     | Postion Relative                          | HTML, CSS, Responsive | [Proyecto Relative](frontEnd/11-position_relative/README.md)                        |
-| Básico     | Position Absolute                         | HTML, CSS, Responsive | [Proyecto Absolute](frontEnd/12-position_absolute/README.md)                        |
-| Básico     | Ventanas Modales                          | HTML, CSS, Responsive | [Proyecto Modal](frontEnd/13-ventana_modal/README.md)                               |
-| Básico     | Position Fixed                            | HTML, CSS, Responsive | [Proyecto Fixed](frontEnd/14-position_fixed/README.md)                              |
-| Básico     | Transiciones                              | HTML, CSS, Responsive | [Proyecto Transiciones](frontEnd/15-transitions/README.md)                          |
-| Básico     | Overflow                                  | HTML, CSS, Responsive | [Proyecto Overflow](frontEnd/16-Overflow/README.md)                                 |
+| Dificultad | Proyecto                                  | Tecnologías | Documentacion                                                                       |
+| ---------- | ----------------------------------------- | ----------- | ----------------------------------------------------------------------------------- |
+| Básico     | Text Area                                 | HTML, CSS   | [Proyecto Text Area](frontEnd/01-text_area/README.md)                               |
+| Básico     | Labels                                    | HTML, CSS   | [Proyecto Labels](frontEnd/02-labels/README.md)                                     |
+| Básico     | Select & DataList & Option                | HTML, CSS   | [Proyecto Select & Datalist & Option](frontEnd/03-Select_Datalist_Option/README.md) |
+| Básico     | Fieldset & Legend                         | HTML, CSS   | [Proyecto Fieldset & Legend](frontEnd/04-fieldset_legend/README.md)                 |
+| Básico     | Details & Summary                         | HTML, CSS   | [Proyecto Details & Summary](frontEnd/05-Details_Summary/README.md)                 |
+| Básico     | Enlaces                                   | HTML, CSS   | [Proyecto Enlaces](frontEnd/06-Enlaces/README.md)                                   |
+| Básico     | Tablas                                    | HTML, CSS   | [Proyecto Tablas HTML](frontEnd/07-TablasHTML/README.md)                            |
+| Básico     | Selectores CSS                            | HTML, CSS   | [Proyecto Selectores CSS](frontEnd/08-SelectoresCSS/README.md)                      |
+| Básico     | Metodologia BEM(Block, Element, Modifier) | HTML, CSS   | [Proyecto BEM](frontEnd/09-BEM/README.md)                                           |
+| Básico     | Barra de navegacion (Display)             | HTML, CSS   | [Proyecto Nav](frontEnd/10-barra_navegacion/README.md)                              |
+| Básico     | Postion Relative                          | HTML, CSS   | [Proyecto Relative](frontEnd/11-position_relative/README.md)                        |
+| Básico     | Position Absolute                         | HTML, CSS   | [Proyecto Absolute](frontEnd/12-position_absolute/README.md)                        |
+| Básico     | Ventanas Modales                          | HTML, CSS   | [Proyecto Modal](frontEnd/13-ventana_modal/README.md)                               |
+| Básico     | Position Fixed                            | HTML, CSS   | [Proyecto Fixed](frontEnd/14-position_fixed/README.md)                              |
+| Básico     | Transiciones                              | HTML, CSS   | [Proyecto Transiciones](frontEnd/15-transitions/README.md)                          |
+| Básico     | Overflow                                  | HTML, CSS   | [Proyecto Overflow](frontEnd/16-Overflow/README.md)                                 |
+| Básico     | Text Flow Control                         | HTML, CSS   | [Proyecto Text Flow](frontEnd/17-text_flow/README.md)                               |
 ## 🚀 Cómo Utilizar Estos Proyectos
 1. Clona el repositorio:
 ```bash
