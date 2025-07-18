@@ -32,6 +32,7 @@ Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. C
 | Básico     | Transiciones                              | HTML, CSS   | [Proyecto Transiciones](frontEnd/15-transitions/README.md)                          |
 | Básico     | Overflow                                  | HTML, CSS   | [Proyecto Overflow](frontEnd/16-Overflow/README.md)                                 |
 | Básico     | Text Flow Control                         | HTML, CSS   | [Proyecto Text Flow](frontEnd/17-text_flow/README.md)                               |
+| Básico     | Objet Fit Y Postion                       | HTML, CSS   | [Proyecto Fit y Position](frontEnd/18-objetc_fit_Position/README.md)                |
 ## 🚀 Cómo Utilizar Estos Proyectos
 1. Clona el repositorio:
 ```bash
