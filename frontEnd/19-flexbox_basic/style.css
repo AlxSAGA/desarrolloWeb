@@ -1,0 +1,36 @@
+body {
+    background-color: #e1f1f6;
+    font-family: serif;
+    margin: 0;
+}
+
+/* Secion titulo principal */
+.container__title {
+    padding: 30px;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Seccion caja principal */
+.container {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Seccion cajas items */
+.container__box {
+    background-color: #102e4e;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+}
+
+/* Seccion primera caja */
+.container__box:first-child {
+    background-color: #096fb2;
+}
