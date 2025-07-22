@@ -34,6 +34,7 @@ Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. C
 | Básico     | Text Flow Control                         | HTML, CSS   | [Proyecto Text Flow](frontEnd/17-text_flow/README.md)                               |
 | Básico     | Objet Fit Y Postion                       | HTML, CSS   | [Proyecto Fit y Position](frontEnd/18-objetc_fit_Position/README.md)                |
 | Básico     | Introduction Flexbox                      | Flexbox     | [Proyecto Flexbox](frontEnd/19-flexbox_basic/README.md)                             |
+| Básico     | Flexbox Wrap & Flow                       | Flexbox     | [Proyecto Flexbox Wrap & Flow](frontEnd/20-flex_wrap_flow/README.md)                |
 ## 🚀 Cómo Utilizar Estos Proyectos
 1. Clona el repositorio:
 ```bash
