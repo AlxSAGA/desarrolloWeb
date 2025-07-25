@@ -1,0 +1,52 @@
+body {
+    background: #005a7e;
+    color: #ccc;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Seccion titulo principal */
+.title {
+    padding: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Seccion caja principal 1 */
+.container__one {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+}
+
+/* Seccion caja principal 2 */
+.container__two {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/* Seccion caja principal 3 */
+.container__three {
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-evenly;
+}
+
+/* Seccion items */
+.container__box {
+    background-color: #ccc;
+    text-align: center;
+    color: #005a7e;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.container__box:first-child {
+    background-color: #00b2b4;
+}
