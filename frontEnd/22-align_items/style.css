@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Seccion Items */
+.container__items {
+    background-color: #e2ddd9;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 0 0 30px 0 #0005;
+    position: relative;
+    transition-timing-function: cubic-bezier(.1,.91,.96,.71);
+    transition-property: bottom;
+    transition-duration: 2s;
+}
+
+.container__items:hover {
+    bottom: 20px;
+}
