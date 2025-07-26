@@ -36,6 +36,7 @@ Este repositorio contiene mis proyectos prácticos de desarrollo web frontend. C
 | Básico     | Introduction Flexbox                      | Flexbox     | [Proyecto Flexbox](frontEnd/19-flexbox_basic/README.md)                             |
 | Básico     | Flexbox Wrap & Flow                       | Flexbox     | [Proyecto Flexbox Wrap & Flow](frontEnd/20-flex_wrap_flow/README.md)                |
 | Básico     | Flexbox Justify Content                   | Flexbox     | [Proyecto Flexbox Justify-Contet](frontEnd/21-justify_content/README.md)            |
+| Básico     | Flexbox Align Items                       | Flexbox     | [Proyecto Flexbox Justify-Contet](frontEnd/22-align_items/README.md)                |
 ## 🚀 Cómo Utilizar Estos Proyectos
 1. Clona el repositorio:
 ```bash
