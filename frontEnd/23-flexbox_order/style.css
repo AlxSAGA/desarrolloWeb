@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Secicon items */
+.box__items {
+    background-color: #edad9e;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 15px 0 #0007;
+}
+
+/* Los elementos con valor de order bajo son los primeros */
+.item--two {
+    order: 10;
+}
+
+.item--one {
+    order: 20;
+}
