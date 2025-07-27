@@ -1,0 +1,53 @@
+body {
+    background: #c5dfe0;
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+/* Seccion caja principal */
+.container {
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    border: 3px solid #31827c;
+    gap: 20px;
+}
+
+.container--one {
+    justify-content: space-around;
+}
+
+.container--two {
+    justify-content: space-between;
+}
+
+.container--three {
+    justify-content: space-evenly;
+}
+
+/* Seccion items */
+.container__box {
+    background-color: #31827c;
+    text-align: center;
+    color: #ccc;
+    font-weight: bold;
+    /* width: 100px; */
+    height: 100px;
+    border-radius: 7px;
+    box-shadow: 0 0 15px 0 #0007;
+    box-sizing: border-box;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+/* Primer item */
+.container__box:first-child {
+    flex-grow: 2;
+}
+
+/* ultimo item*/
+.container__box:last-child {
+    flex-shrink: 3;
+}
