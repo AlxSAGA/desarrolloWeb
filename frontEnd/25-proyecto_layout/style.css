@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ccc;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Seccion header */
+.header {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+    background-position: top;
+    box-sizing: cover;
+    background-size: cover;
+    display: flex;
+}
+
+/* Seccion capa overlay*/
+.header__overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: #0004;
+    position: absolute;
+    z-index: 10;
+}
+
+/* Seccion contenido */
+.header__section {
+    position: relative;
+    text-align: center;
+    z-index: 20;
+    margin: auto;
+    max-width: 90%;
+}
+
+/* Seccion titulo principal */
+.section__title {
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-wrap: balance;
+}
+
+.section__content {
+    font-size: 30px;
+    font-weight: bold;
+    text-wrap: pretty;
+}
+
+.section__title, .section__content {
+    margin: 200px;
+}
+
+/* Seccion barra de navegacion */
+.nav {
+    background-color: #003453;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav__group {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__item {
+    list-style: none;
+    margin: 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.nav__link:hover {
+    background-color: #ccc;
+    color: #000;
+    border-radius: 7px;
+    box-shadow: 0 0 15px 0 #fff6;
+}
+
+/* Seccion principal */
+.main__container {
+    padding: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Secicon items */
+.card {
+    background-color: #003453;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 7px;
+    margin: 20px;
+    overflow: auto;
+    flex-grow: 1;
+    position: relative;
+    transition-timing-function: cubic-bezier(.05,.92,.83,.67);
+    transition-duration: 2s;
+    transition-property: bottom;
+    bottom: 0;
+}
+
+.card:hover {
+    bottom: 20px;
+    box-shadow: 0 0  20px 0 #0009;
+}
+
+/* Seccion tutulo */
+.card__subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Seccion texto */
+.card__content {
+    text-align: justify;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    padding-top: 5px;
+}
+
+/* Seccion footer */
+.footer {
+    background-color: #003453;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+}
